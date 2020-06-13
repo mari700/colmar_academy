@@ -13,14 +13,24 @@ html {
 
 .content-left {
     width: 60%;
+    box-sizing: border-box;
 }
 
 .content-left img, .content-left video {
     width: 100%;
     height: auto;
     padding: 2rem 1.5rem;
+    box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
 /* Header */
 
 .header {
@@ -47,7 +57,7 @@ html {
 }
 .logo a {
     font-size: 2rem;
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #4a4a4a;
 }
 
@@ -66,7 +76,7 @@ html {
 }
 
 .main-navigation a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #4a4a4a;
 }
 
@@ -124,9 +134,118 @@ html {
 
 #subscription-section .content-right a {
     color: #ffffff;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 /* Bulletin Section */
 
+#bulletin-section {
+    /* display: inline-flex; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* box-sizing: border-box; */
+  
+}
 
+/* #bulletin-section .content-left {
+    width: 60%;
+} */
+
+#bulletin-section .content-left .quote-box {
+    padding: 0 1.5rem 2rem;
+}
+
+.content-left .quote-box h2 {
+    padding-bottom: 1.5rem;
+    /* font-size: 1.7rem; */
+}
+
+.content-left .quote-box p {
+    line-height: 1.5rem;
+    letter-spacing: .06rem;
+    font-weight: 300;
+}
+
+.content-left .quote-box a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-style: normal;
+}
+
+#bulletin-section .content-right {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    box-sizing: border-box;
+    padding: 2rem 0;
+    border-left: 1.3px solid #d8d8d8;
+    /* justify-content: center; */  
+}
+
+#bulletin-section .content-right .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1.3px solid #d8d8d8;
+    /* border-bottom: 1.2px solid #d8d8d8; */
+    /* flex-shrink: 4; */
+    /* padding: 1rem; */
+    
+}
+
+.content-right .container img {
+    width: 35%;
+    height: auto;
+    margin: 1rem;
+    flex-shrink: 2;
+    /* box-sizing: border-box; */
+}
+
+.content-right .container .info-container {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 3;
+}
+
+.content-right .container .info-container p {
+    font-weight: 300;
+    padding: .5rem 0;
+    line-height: 1.5rem;
+}
+
+.content-right .container .info-container a {
+    color: #5898e3;
+}
+
+.content-right .container .background-grey {
+    background: #d8d8d8;
+}
+
+.content-right .container .border {
+    margin: 0;
+    border: 1rem solid #d8d8d8;
+}
+
+/* Learning Section */
+
+#learning-section {
+    background: #d8d8d8;
+    padding: 0 4.5rem 2rem;
+}
+
+#learning-section h2 {
+    text-align: center;
+    padding: 2rem;
+    /* display: block; */
+
+}
+
+.course {
+    display: flex;
+    flex-flow: row wrap;
+}
