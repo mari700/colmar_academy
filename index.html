@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colmar Academy</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"> -->
 </head>
 <body>
 
     <!-- Header -->
 
-    <header>
+    <header class="header">
         <div class="logo">
-            <img src="resources/images/ic-logo.svg" alt="">
-            <a href="">COLMAR<span class="gray"></span>ACADEMY</span></a>
+            <a href=""><img src="resources/images/ic-logo.svg" alt=""></a>
+            <a href="#" class="bold">COLMAR</a>
+            <a href="#" class="color-gray">ACADEMY</a>
         </div>
-        <nav>
+        <nav class="main-navigation">
             <ul>
                 <li><a href="#">On campus</a></li>
                 <li><a href="#">Online</a></li>
@@ -30,29 +32,31 @@
     <!-- Main Content -->
 
     <main>
-        <!-- Start Here Section -->
+        <!-- Subscription Section -->
 
-        <div id="start-section">
+        <div id="subscription-section">
             <div class="content-left">
                 <img src="resources/images/banner.jpg" alt="People Studying">
             </div>
             <div class="content-right">
-            <h1>Learn something new everyday</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h1>Learn something<br> new everyday</h1>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
             <button><a href="#">Start here</a></button>
             </div>   
         </div>
 
-        <!-- Schedule Section -->
+        <!-- Bulletin Section -->
 
-        <div id="schedule-section">
+        <div id="bulletin-section">
             <div class="content-left">
                 <img src="resources/images/information-main.jpg" alt="Man Reading">
-                <h2>It doesn't hurt to keep practincing</h2>
-                <blockquote>
-                    <p>Curabitur vitae libero in ipusm porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula</p>
-                    <cite>Emanual, Sr Strategist at Hiring.com</cite>
-                </blockquote>
+                <div class="quote-box">
+                    <h2>It doesn't hurt to keep practincing</h2>
+                    <blockquote>
+                        <p>Curabitur vitae libero in ipusm porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula</p>
+                        <cite>Emanual, Sr Strategist at Hiring.com</cite>
+                    </blockquote>
+                </div>
             </div>
             <div class="content-right">
                 <div class="container">
@@ -161,14 +165,14 @@
 
         <div id="thesis-section">
             <h2>Thesis Exhibit</h2>
-            <div class="content-right">
+            <div class="content-left">
                 <video src="resources/videos/thesis.mp4"></video>
                 <h4>Reimagine Urban</h4>
                 <blockquote>
                     <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget manga laoreet, efficitur dolor consequat, tristique ligula."</p>
                 </blockquote>
             </div>
-            <div class="content-left">
+            <div class="content-right">
                 <div class="container">
                     <div class="image-container">
                         <img src="resources/images/thesis-fisma.jpg" alt="Person Working On Project">

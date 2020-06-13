@@ -1,0 +1,132 @@
+/* Universal Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.content-left {
+    width: 60%;
+}
+
+.content-left img, .content-left video {
+    width: 100%;
+    height: auto;
+    padding: 2rem 1.5rem;
+}
+
+/* Header */
+
+.header {
+    height: 64px;
+    width: 100%;
+    padding: 0 1.5rem;
+    background: #ffffff;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    display: flex;
+    align-items: baseline;
+}
+.logo a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.logo .bold {
+    font-weight: 700;
+}
+
+ .logo .color-gray {
+    color: #9b9b9b;
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.main-navigation li {
+    list-style-type: none;
+    padding-right: 1rem;
+    display: inline-flex;
+}
+
+/* Main Content */
+
+/* Subscription Section */
+
+#subscription-section {
+    background: #d8d8d8;
+    padding-top: 4rem;
+    display: inline-flex;
+    /* justify-content: space-between; */
+    
+}
+
+/* .content-left {
+    width: 60%;
+}
+
+#subscription-section .content-left img {
+    width: 100%;
+    height: auto;
+    padding: 2rem 1.5rem;
+} */
+
+#subscription-section .content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+#subscription-section .content-right h1, p {
+    padding-bottom: 2rem;
+}
+
+#subscription-section .content-right p {
+    line-height: 1.5rem;
+    letter-spacing: .09rem;
+}
+
+#subscription-section .content-right button {
+    background: #4a4a4a;
+    width: 245px;
+    height: 40px;
+    padding: .5rem;
+}
+
+#subscription-section .content-right a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Bulletin Section */
+
+
