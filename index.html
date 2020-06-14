@@ -6,7 +6,6 @@
     <title>Colmar Academy</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"> -->
 </head>
 <body>
 
@@ -76,7 +75,7 @@
                     </div>     
                 </div>
                 <div class="container">
-                    <img src="resources/images/information-guest-lecture.jpg" class="border" alt="Lecture Speaker">
+                    <img src="resources/images/information-guest-lecture.jpg" alt="Lecture Speaker" class="border">
                     <div class="info-container background-grey">
                         <h3>Our guest lecture</h3>
                         <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -92,7 +91,7 @@
         <!-- Learning Section -->
 
         <div id="learning-section">
-            <h2 class="heading-two">Start Learning</h2>
+            <h2>Start Learning</h2>
             <div class="courses-container">
                 <div class="course-box">
                     <img src="resources/images/course-software.jpg" alt="Computer Screens">
@@ -148,33 +147,31 @@
         <!-- Thesis Section -->
 
         <div id="thesis-section">
-            <h2 class="heading-two">Thesis Exhibit</h2>
-            <div class="content-left">
-                <video src="resources/videos/thesis.mp4"></video>
-                <h3>Reimagine Urban</h3>
-                <blockquote>
-                    <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget manga laoreet, efficitur dolor consequat, tristique ligula."</p>
-                </blockquote>
-            </div>
-            <div class="content-right">
-                <div class="container">
-                    <div class="image-container">
-                        <img src="resources/images/thesis-fisma.jpg" alt="Person Working On Project">
-                    </div>
-                    <div class="info-container">
-                        <h3>Fisma: Design and</h3>
-                        <p>Designer showcase of new prototype product</p>
-                    </div>   
+            <h2>Thesis Exhibit</h2>
+            <div class="thesis-containers">
+                <div class="content-left">
+                    <video src="resources/videos/thesis.mp4" controls></video>
+                    <h3>Reimagine Urban</h3>
+                    <blockquote>
+                        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget manga laoreet, efficitur dolor consequat, tristique ligula."</p>
+                    </blockquote>
                 </div>
-                <div class="container">
-                    <div class="image-container">
-                        <img src="resources/images/thesis-now-and-then.jpg" alt="New York City">
+                <div class="content-right">
+                    <div class="container">
+                        <img src="resources/images/thesis-fisma.jpg" alt="Person Working On Project" class="border">
+                        <div class="info-container background-grey">
+                            <h3><a href="">Fisma: Design and</a></h3>
+                            <p>Designer showcase of new prototype product</p>
+                        </div>   
                     </div>
-                    <div class="info-container">
-                        <h3>Now and Then</h3>
-                        <p>Research study about New York</p>
-                    </div>   
-                </div> 
+                    <div class="container">
+                        <img src="resources/images/thesis-now-and-then.jpg" alt="New York City">
+                        <div class="info-container">
+                            <h3>Now and Then</h3>
+                            <p>Research study about New York</p>
+                        </div>   
+                    </div> 
+                </div>
             </div>
         </div>
 
@@ -183,12 +180,12 @@
     <!-- Footer -->
 
     <footer>
-        <span class="copyright">©2016 Colmar Academy. All rights reserved
+        <span class="copyright">© 2016 Colmar Academy. All rights reserved
         </span>
-        <span class="terms-privacy">
-            <a href="#">Terms</a>
-            <a href="#">Privacy</a>
-        </span>
+        <div class="terms-privacy">
+                <span><a href="#">Terms</a></span>
+                <span><a href="#">Privacy</a></span>
+          </div>
     </footer>
 
 </body>
